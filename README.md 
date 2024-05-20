@@ -1,0 +1,23 @@
+# Falling Ball
+
+The "Falling Ball" project is a small visualization demonstrating the effect of gravity on circles falling on displey.
+
+## How I created this
+
+1. Create index.html and main.ts.
+2. Then I created  (tsc main.ts --outFile main.js), to generate ts file to a js file.
+
+## How it works
+
+1. When the user clicks on the displey, a random ball with a specific radius and color is created.
+2. Gravity is applied to each circle, causing them to fall downwards.
+3. If a ball touches the bottom boundary of the canvas, it bounces back with a certain coefficient of restitution.
+
+## Usage
+
+Open `index.html` in your web browser to see the project in action.
+
+## Author
+
+Project author: Lavrentin Sargsyan
+GitHub link: 
